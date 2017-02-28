@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="0.9.0" group="content" method="upgrade">
+    <name>UTM Links Plugin</name>
+    <creationDate>May 2016</creationDate>
+    <author>Kári Magnússon</author>
+    <version>0.9.0</version>
+    <description>Replaces {utmlinks} in articles. Enable Prepare Content if used in Custom HTML module</description>
+
+    <files>
+        <filename plugin="utmlinks">utmlinks.php</filename>
+        <filename>index.html</filename>
+        <filename>utmlinks.xml</filename>
+    </files>
+
+</extension>
